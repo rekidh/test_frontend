@@ -12,24 +12,15 @@ export default function LogoBoxs(prop) {
     let y = e.clientY
     setMouse({x,y})
   }
-  const style={
-    fontSize:prop.size +"px",
-    width:prop.size+'px',
-    color:prop.logoColor
-  }
+
   const handleClick =(e)=>{
     e.target.style=`
     position: absolute;
     transform: translate3d(${e.clientX}px,${e.clientY}px,)
     `
     handleMouse(e)
-    console.log(mouse)
-      
-      
+    console.log(mouse) 
     }
-  
-
-  
 
   
   return (

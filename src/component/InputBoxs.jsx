@@ -1,6 +1,7 @@
 import React from 'react';
 
 const InputBoxs = (prop) => {
+
    const colors=['86A3B8','E8D2A6','F48484','F55050']
 
    const heandleChange=(e)=>{
@@ -13,7 +14,6 @@ const InputBoxs = (prop) => {
             prop.setLogo(e.target.value)
             break
          default:
-
       }
    }
 
@@ -33,7 +33,7 @@ const InputBoxs = (prop) => {
          <div className='colors mt-sm'>
             {colors.map((item)=> <button  id={`#${item}`} className='color-select' style={{backgroundColor:`#${item}`}} onClick={heandleClick}></button>)}
          </div>
-         <button className='mt-sm' >Save</button>
+         <button className='mt-sm' onClick={(e)=>console.log(e)} >Save</button>
       </div>
    );
 }
