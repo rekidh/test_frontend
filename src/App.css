@@ -1,0 +1,39 @@
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar{
+  background-color: black;
+  color: white;
+}
+.logo-box{
+  margin: auto;
+  background-color: palegoldenrod;
+  width: 40%;
+  height: 25vh;
+}
+.h-md{
+  height: 3em;
+}
+.mt-sm{
+  margin-top: 1.5em;
+}
+.colum{
+  flex-direction: column;
+}
+.text-logo{ 
+  width:10px;
+  margin:2px;
+  /* background-color: yellow; */
+}
+.text-logo:hover{
+  cursor:grab;
+}
+.color-select{
+  width: 3em;
+  height: 3em;
+  margin: 1em;
+  border: 0;
+  padding: 0;
+}
