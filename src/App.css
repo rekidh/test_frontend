@@ -39,6 +39,7 @@
 }
 .text-logo:hover{
   cursor:grab;
+  /* cursor: grabbing; */
   background-color: aqua;
 }
 .color-select{
