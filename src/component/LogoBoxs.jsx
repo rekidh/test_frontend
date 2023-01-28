@@ -1,7 +1,5 @@
 import React from 'react'
 import {useState } from 'react'
-import {useDrag} from 'react-use-gesture'
-
 
 export default function LogoBoxs(prop) {
 
@@ -49,7 +47,7 @@ export default function LogoBoxs(prop) {
 
   return (
     <div className={prop.className} onMouseMove={handleMouse} >
-      <div className='center h-md' id='text-container' >
+      <div className='center h-md'  >
         {text.map((item)=>
           <div  onMouseDown={mouseDown}  onMouseUp={handleUp}> 
             <span className='center text-logo' style={{fontSize:prop.size +"px",width:prop.size+'px',color:prop.logoColor,position:"relative"}} >{item}</span>

@@ -33,14 +33,9 @@
   width:0.7rem;
   text-align: center;
   display: inline-block;
-  /* align-items: center; */
-  /* margin:2px; */
-  /* background-color: yellow; */
 }
 .text-logo:hover{
   cursor:grab;
-  /* cursor: grabbing; */
-  background-color: aqua;
 }
 .color-select{
   width: 3em;
